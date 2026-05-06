@@ -22,7 +22,7 @@ while not option == 4:
     option = int(input("Please select an option: "))
 
     if option == 1:
-        print("Please input the amount of that will be added to your funds")
+        print("Please input the amount of money that will be added to your funds")
         amount_input("Amount of money: ")
         funds += amount
         print("Transaction success!")
