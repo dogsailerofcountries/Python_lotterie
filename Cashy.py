@@ -2,6 +2,7 @@ funds = 1000
 amount = 1000
 option = 0
 
+
 def amount_input(message):
     global amount
     while 1 == 1:
@@ -11,6 +12,7 @@ def amount_input(message):
             break
         except ValueError:
             print("'" + str(amount) + "' Not a valid input")
+
 
 while not option == 4:
     print("---Cash register---")

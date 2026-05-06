@@ -1,3 +1,4 @@
+"""
 n_rows = int(input())
 nri = n_rows 
 while nri > 0:
@@ -15,3 +16,4 @@ while nri > 0:
     print(forbid_n)
     nri -= 1
     print("row number " + str(nri))
+"""
